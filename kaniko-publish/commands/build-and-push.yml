@@ -44,7 +44,7 @@ steps:
         --context "<< parameters.path >>"
         --destination "<< parameters.image >>:<< parameters.tag >>"
         <<^parameters.cache>>
-        --cache 
+        --cache
         <</parameters.cache>>
         <<^parameters.deploy>>
         --no-push
